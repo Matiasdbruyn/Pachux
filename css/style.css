@@ -52,11 +52,15 @@ header nav ul li a {
 .origen h2 {
   font-family: "Poppins", sans-serif;
   color: rgb(114, 67, 6);
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
 }
 
 .origen p {
   font-family: "Montserrat", sans-serif;
   color: rgb(92, 53, 2);
+  text-align: center;
 }
 
 .origen div {
@@ -67,6 +71,8 @@ header nav ul li a {
 .origen_dos h2 {
   font-family: "Poppins", sans-serif;
   color: rgb(114, 67, 6);
+  padding: 20px;
+  text-align: center;
 }
 
 .origen_dos p {
@@ -393,7 +399,7 @@ header nav ul li a {
 
 .objetos h2 {
   font-family: "Montserrat", sans-serif;
-  color: rgb(248, 234, 41);
+  color: chocolate;
   width: 45%;
   padding: 20px;
   text-align: left;
@@ -402,7 +408,7 @@ header nav ul li a {
 
 .objetos p {
   font-family: "Montserrat", sans-serif;
-  color: rgb(248, 234, 41);
+  color: white;
   width: 45%;
   padding: 20px;
   text-align: left;
@@ -412,17 +418,20 @@ header nav ul li a {
 .explicacion_objetos {
   display: flex;
   align-items: center;
-  background-image: url(../img/granos_sin_fondo.png);
   background-repeat: no-repeat;
   background-position: right;
   background-color: black;
   height: 600px;
 }
 
+.explicacion_objetos img {
+  margin-right: 50px;
+}
+
 .explicacion_objetos h2 {
   font-family: "Poppins", sans-serif;
-  color: rgb(248, 234, 41);
-  width: 45%;
+  color: chocolate;
+  width: 85%;
   padding: 20px;
   text-align: right;
   font-size: 30px;
@@ -430,8 +439,8 @@ header nav ul li a {
 
 .explicacion_objetos p {
   font-family: "Montserrat", sans-serif;
-  color: rgb(248, 234, 41);
-  width: 45%;
+  color: white;
+  width: 85%;
   padding: 20px;
   text-align: right;
   font-size: 30px;
@@ -439,7 +448,7 @@ header nav ul li a {
 
 .intro_productos {
   background-color: black;
-  color: rgb(248, 234, 41);
+  color: chocolate;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   text-align: center;
@@ -723,6 +732,8 @@ footer div a img:hover {
   }
 
   @media screen and (max-width: 609px) {
+    .taza_cafe {
+    }
     .header nav ul {
       flex-direction: column;
       justify-content: center;
@@ -800,14 +811,7 @@ footer div a img:hover {
   }
 
   @media screen and (max-width: 1257px) {
-    .origen div {
-      text-align: center;
-    }
-    .origen h2 {
-      padding: 5px;
-    }
     .origen p {
-      padding: 10px;
       font-size: 15px;
     }
   }
@@ -827,13 +831,12 @@ footer div a img:hover {
   }
 
   @media screen and (max-width: 805px) {
-    .origen_dos h2 {
-      margin-top: 10px;
-      text-align: center;
+    .origen div {
+      padding: 20px;
     }
     .origen_dos p {
-      font-size: 15px;
-      padding: 20px;
+      font-size: 20px;
+      padding: 10px;
     }
   }
 
