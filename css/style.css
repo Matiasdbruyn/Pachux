@@ -38,9 +38,6 @@ header nav ul li {
   margin: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition-duration: 1s;
 }
 
@@ -48,7 +45,7 @@ header nav ul li:hover {
   transform: scale(1.2);
 }
 
-header nav div ul li a {
+.menu .menu_dos ul li a {
   font-size: 18px;
   text-decoration: none;
   color: white;
@@ -474,8 +471,8 @@ header nav div ul li a {
   background-color: black;
   padding: 50px;
   display: grid;
-  grid-template-columns: 300px 300px 300px 460px;
-  grid-template-rows: 400px 400px;
+  grid-template-columns: 350px 250px 250px 460px;
+  grid-template-rows: 350px 350px;
   gap: 40px;
   width: 100%;
   justify-content: center;
@@ -490,9 +487,65 @@ header nav div ul li a {
   background-color: black;
 }
 
+.primer_item {
+  transition-duration: 1s;
+}
+
+.primer_item:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+}
+
+.segundo_item {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  transition-duration: 1s;
+}
+
+.segundo_item:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+}
+
 .cuarto_item {
   grid-row: span 2;
   width: 100%;
+  transition-duration: 1s;
+}
+
+.cuarto_item:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+}
+
+.quinto_item {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  transition-duration: 1s;
+}
+
+.quinto_item:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+}
+
+.sexto_item {
+  transition-duration: 1s;
+}
+
+.sexto_item:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
 }
 
 /*-----MAIN INDEX-----*/
@@ -731,13 +784,6 @@ footer div a img:hover {
 
 /*--------@MEDIA-------*/
 
-@media screen and (max-width: 1113px) {
-  .header {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   @media screen and (max-width: 609px) {
     .mini_presso {
       height: 700px;
@@ -810,6 +856,9 @@ footer div a img:hover {
   @media screen and (max-width: 991px) {
     .header div ul {
       background-color: rgba(180, 127, 91, 0.959);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 
