@@ -4,70 +4,107 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Pachux</title>
   </head>
   <body>
-      <header class="header">
-        <img src="./img/pachux.jpg" alt="Pachux" />
-        <nav>
-          <ul>
-            <li><a href="./pages/cafe.html">Cafe</a></li>
-            <li><a href="./pages/estilos.html">Estilos</a></li>
-            <li><a href="./pages/productos.html">Productos</a></li>
-            <li><a href="./pages/locales.html">Locales</a></li>
-            <li><a href="./pages/contacto.html">Contacta con Nosotros</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <section class="mini_presso">
-          <div>
-            <h2>Minipresso</h2>
-            <p>Coloca. Apreta. Listo.</p>
-            <h3>Sumérgete en lo nuevo</h3>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <img src="./img/pachux.jpg" alt="Pachux" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/cafe.html"
+                  >Cafe</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/estilos.html">Estilos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/locales.html">Locales</a>
+              </li>
+            </ul>
           </div>
-        </section>
-        <section class="taza_cafe">
-          <div>
-            <h2>Siempre hay tiempo...</h2>
-            <p>Siempre hay tiempo para una buena taza de cafe</p>
-          </div>
-        </section>
-        <section class="grano_capsula">
-          <div class="primero">
-            <h2>Desde el cultivo... Hasta todas tus mañanas</h2>
-            <p>Diferentes variedades y formatos</p>
-          </div>
-          <div class="segundo">
-            <h2>Proba lo nuevo</h2>
-            <p>Variedad en la intensidad y sabor</p>
-          </div>
-        </section>
-        <section class="cafetera_explocion">
-          <div class="primero">
-            <h2>No existe modernidad</h2>
-            <p>Sin una buena tradición</p>
-          </div>
-          <div class="segundo">
-            <h2>Una exploción de sabor</h2>
-            <p>Para arrancar bien el dia</p>
-          </div>
-        </section>
-      </main>
-      <footer>
-        <div>
-          <a href="https://www.linkedin.com/feed/" target="_blank"
-            ><img src="./img/linkedin.png" alt="Linkedin"
-          /></a>
-          <a href="https://www.instagram.com/" target="_blank"
-            ><img src="./img/instagram.png" alt="Instagram"
-          /></a>
-          <a href="https://web.whatsapp.com/" target="_blank"
-            ><img src="./img/whatsapp.png" alt="Whatsapp"
-          /></a>
         </div>
-      </footer>
-    </div>
+      </nav>
+    </header>
+    <main>
+      <section class="mini_presso">
+        <div>
+          <h2>Minipresso</h2>
+          <p>Coloca. Apreta. Listo.</p>
+          <h3>Sumérgete en lo nuevo</h3>
+        </div>
+      </section>
+      <section class="taza_cafe">
+        <div>
+          <h2>Siempre hay tiempo...</h2>
+          <p>Siempre hay tiempo para una buena taza de cafe</p>
+        </div>
+      </section>
+      <section class="grano_capsula">
+        <div class="primero">
+          <h2>Desde el cultivo... Hasta todas tus mañanas</h2>
+          <p>Diferentes variedades y formatos</p>
+        </div>
+        <div class="segundo">
+          <h2>Proba lo nuevo</h2>
+          <p>Variedad en la intensidad y sabor</p>
+        </div>
+      </section>
+      <section class="cafetera_explocion">
+        <div class="primero">
+          <h2>No existe modernidad</h2>
+          <p>Sin una buena tradición</p>
+        </div>
+        <div class="segundo">
+          <h2>Una exploción de sabor</h2>
+          <p>Para arrancar bien el dia</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a href="https://www.linkedin.com/feed/" target="_blank"
+          ><img src="./img/linkedin.png" alt="Linkedin"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="./img/instagram.png" alt="Instagram"
+        /></a>
+        <a href="https://web.whatsapp.com/" target="_blank"
+          ><img src="./img/whatsapp.png" alt="Whatsapp"
+        /></a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
