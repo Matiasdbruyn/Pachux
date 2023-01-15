@@ -1,0 +1,30 @@
+/*------FOOTER------*/
+
+footer {
+  width: 100%;
+  grid-area: footer;
+  background-color: rgba(126, 47, 1, 0.562);
+  p {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(122, 55, 7);
+  }
+  div {
+    display: inline;
+    display: flex;
+    justify-content: center;
+    a {
+      img {
+        width: 55px;
+        height: 55px;
+        transition: 1s;
+        margin: 25px;
+        &:hover {
+          transform: scale(1.3);
+        }
+      }
+    }
+  }
+}

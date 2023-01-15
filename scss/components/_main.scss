@@ -1,0 +1,672 @@
+/*-----INDEX------*/
+
+.mini_presso {
+  grid-area: mini_presso;
+  width: 100%;
+  height: 750px;
+  background-image: url(../img/mini_sinfondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: right;
+  div {
+    h2 {
+      color: rgb(153, 81, 18);
+      font-size: 60px;
+      margin-right: 15px;
+      padding: 30px;
+      font-family: "Poppins", sans-serif;
+    }
+    p {
+      color: rgb(153, 81, 18);
+      font-size: 30px;
+      margin-right: 15px;
+      padding: 5px;
+      font-family: "Montserrat", sans-serif;
+    }
+    h3 {
+      color: rgb(153, 81, 18);
+      font-size: 30px;
+      margin-right: 15px;
+      padding: 5px;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+}
+.taza_cafe {
+  grid-area: taza_cafe;
+  color: white;
+  background-image: url(../img/cafe_index.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: right;
+  div {
+    h2 {
+      color: sandybrown;
+      font-size: 50px;
+      padding: 15px;
+      font-family: "Poppins", sans-serif;
+      margin-right: 10px;
+    }
+    p {
+      color: rgb(250, 208, 172);
+      font-size: 20px;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+      margin-right: 5px;
+    }
+  }
+}
+.grano_capsula {
+  background-color: rgba(238, 238, 238, 0.637);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
+  .primero {
+    grid-area: grano_capsula_primero;
+    background-image: url(../img/semilla_cafe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 500px;
+    transition-duration: 1s;
+    &:hover {
+      transform: scale(1.1);
+    }
+    h2 {
+      font-weight: 900;
+      text-align: center;
+      padding: 10px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(102, 38, 9);
+    }
+    p {
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+      color: rgb(102, 38, 9);
+    }
+  }
+  .segundo {
+    grid-area: grano_capsula_segundo;
+    background-image: url(../img/capsulas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 500px;
+    transition-duration: 1s;
+    &:hover {
+      transform: scale(1.1);
+    }
+    h2 {
+      text-align: center;
+      padding: 10px;
+      font-family: "Poppins", sans-serif;
+      position: relative;
+      top: 130px;
+      right: 60px;
+    }
+    p {
+      text-align: center;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+      position: relative;
+      top: 120px;
+      right: 20px;
+    }
+  }
+}
+.cafetera_explocion {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: rgba(238, 238, 238, 0.637);
+  flex-wrap: wrap;
+  .primero {
+    grid-area: cafetera_explocion_primero;
+    color: white;
+    background-image: url(../img/cafetera_paisaje.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 500px;
+    transition-duration: 1s;
+    &:hover {
+      transform: scale(1.1);
+    }
+    h2 {
+      text-align: left;
+      padding: 10px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(179, 128, 52);
+    }
+    p {
+      font-size: 20px;
+      text-align: left;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+      color: rgb(235, 189, 122);
+    }
+  }
+  .segundo {
+    color: rgb(192, 118, 33);
+    background-image: url(../img/cafe_corazon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 500px;
+    transition-duration: 1s;
+    &:hover {
+      transform: scale(1.1);
+    }
+    h2 {
+      margin-right: 150px;
+      text-align: center;
+      padding: 10px;
+      font-family: "Poppins", sans-serif;
+    }
+    p {
+      margin-right: 150px;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+}
+
+/*-----CAFE------*/
+
+.origen {
+  background-color: rgba(133, 81, 13, 0.253);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  div {
+    width: 800px;
+    font-size: 20px;
+    h2 {
+      font-family: "Poppins", sans-serif;
+      color: rgb(114, 67, 6);
+      padding: 20px;
+      text-align: center;
+      font-size: 40px;
+    }
+    p {
+      font-family: "Montserrat", sans-serif;
+      color: rgb(92, 53, 2);
+      text-align: center;
+    }
+  }
+  img {
+    margin-top: 15px;
+    width: 450px;
+    height: 650px;
+  }
+}
+.origen_dos {
+  background-color: rgba(133, 81, 13, 0.247);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  img {
+    margin-top: 15px;
+    width: 500px;
+    height: 700px;
+  }
+  div {
+    width: 800px;
+    font-size: 20px;
+    h2 {
+      font-family: "Poppins", sans-serif;
+      color: rgb(114, 67, 6);
+      padding: 20px;
+      text-align: center;
+    }
+    p {
+      font-family: "Montserrat", sans-serif;
+      color: rgb(92, 53, 2);
+    }
+  }
+}
+.origen_tres {
+  background-color: rgba(133, 81, 13, 0.247);
+  text-align: center;
+  div {
+    background-color: rgba(133, 81, 13, 0.247);
+    position: relative;
+    top: 80px;
+    color: rgb(97, 57, 4);
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 25px;
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 25px;
+    }
+  }
+  img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 50%;
+  }
+}
+
+/*-----ESTILO------*/
+
+.estilo_grano {
+  background-color: rgba(238, 238, 238, 0.637);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .primero {
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(104, 63, 2, 0.459)),
+      url(../img/semillas.jpg);
+    text-align: center;
+    color: white;
+    width: 1550px;
+    height: 700px;
+    transition-property: width;
+    transition-duration: 1s;
+    &:hover {
+      width: 2500px;
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      position: relative;
+      top: 300px;
+    }
+    li {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      position: relative;
+      top: 300px;
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: cyan;
+      }
+    }
+  }
+  .segundo {
+    background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(253, 191, 76, 0.411)),
+      url(../img/cafe_molido.jpg);
+    background-position: center;
+    text-align: center;
+    color: white;
+    width: 1550px;
+    height: 700px;
+    transition-property: width;
+    transition-duration: 1s;
+    &:hover {
+      width: 2500px;
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      position: relative;
+      top: 300px;
+    }
+    li {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      position: relative;
+      top: 300px;
+    }
+  }
+}
+#grano {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(244, 245, 245);
+  img {
+    padding: 50px;
+    width: 45%;
+    height: 600px;
+  }
+  div {
+    h2 {
+      color: rgb(2, 179, 179);
+      margin-top: 100px;
+      width: 800px;
+      text-align: center;
+      font-size: 30px;
+      font-family: "Poppins", sans-serif;
+    }
+    p {
+      color: rgb(2, 68, 68);
+      width: 800px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+    }
+  }
+}
+#molido {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(244, 245, 245);
+  div {
+    h2 {
+      color: rgb(2, 179, 179);
+      padding: 30px;
+      width: 800px;
+      text-align: center;
+      font-size: 30px;
+      font-family: "Poppins", sans-serif;
+    }
+    p {
+      color: rgb(2, 116, 116);
+      width: 800px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+    }
+  }
+  img {
+    padding: 15px;
+    width: 30%;
+    height: 700px;
+  }
+}
+
+/*-----PRODUCTOS------*/
+
+.ojo {
+  background-image: url(../img/fondo_productos.jpg);
+  .objetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 750px;
+    div {
+      h2 {
+        font-family: "Montserrat", sans-serif;
+        color: chocolate;
+        text-align: center;
+        font-size: 80px;
+        padding: 50px;
+        text-decoration: underline;
+      }
+      p {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        padding: 20px;
+      }
+    }
+  }
+  .explicacion_objetos {
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+    div {
+      h2 {
+        font-family: "Poppins", sans-serif;
+        color: chocolate;
+        width: 85%;
+        padding: 20px;
+        text-align: center;
+        font-size: 35px;
+      }
+      p {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        width: 85%;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+      }
+    }
+    img {
+      margin-right: 50px;
+    }
+  }
+  .intro_productos {
+    p {
+      color: chocolate;
+      font-family: "Poppins", sans-serif;
+      font-size: 50px;
+      text-align: center;
+      padding: 80px;
+    }
+  }
+  .productos {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 280px 250px 280px 460px;
+    grid-template-rows: 350px 350px;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    .primer_item {
+      transition-duration: 1s;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .segundo_item {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      transition-duration: 1s;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .cuarto_item {
+      grid-row: span 2;
+      width: 100%;
+      transition-duration: 1s;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .quinto_item {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      transition-duration: 1s;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .sexto_item {
+      transition-duration: 1s;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .seguir {
+    height: 150px;
+    p {
+      padding: 28px;
+      text-align: center;
+      color: chocolate;
+      font-size: 40px;
+      text-decoration: overline;
+    }
+  }
+}
+
+/*-----LOCALES------*/
+
+.presentacion_lugares {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.479),
+      rgba(100, 57, 1, 0.582)
+    ),
+    url(../img/mapa_fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: rgb(143, 50, 7);
+    font-size: 40px;
+  }
+}
+.local_uno {
+  background: linear-gradient(
+      rgba(100, 57, 1, 0.836),
+      rgba(255, 255, 255, 0.479)
+    ),
+    url(../img/fondo_cafeteria.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  iframe {
+  }
+  div {
+    h2 {
+      color: rgb(238, 130, 83);
+      font-family: "Poppins", sans-serif;
+      font-size: 35px;
+      padding: 20px;
+      text-align: center;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      width: 500px;
+      text-align: center;
+      color: rgb(112, 36, 0);
+      background-color: rgba(219, 112, 62, 0.5);
+    }
+  }
+}
+.local_dos {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.541),
+      rgba(100, 57, 1, 0.897)
+    ),
+    url(../img/venta_cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  div {
+    h2 {
+      color: rgb(194, 61, 0);
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      padding: 20px;
+      text-align: center;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      width: 500px;
+      text-align: center;
+      color: rgb(112, 36, 0);
+      background-color: rgba(219, 112, 62, 0.5);
+    }
+  }
+  iframe {
+  }
+}
+.contacta_con_nosotros {
+  background: linear-gradient(
+      rgba(100, 57, 1, 0.836),
+      rgba(255, 255, 255, 0.479)
+    ),
+    url(../img/tabla_cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .comentario {
+    text-align: center;
+    color: rgb(245, 175, 142);
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    h3 {
+    }
+    textarea {
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      border-color: rgb(145, 47, 2);
+    }
+  }
+  .enviar_borrar {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    input {
+    }
+  }
+}

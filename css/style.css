@@ -8,12 +8,14 @@
 /*-----HEADER-------*/
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 header nav {
@@ -25,13 +27,8 @@ header nav {
 }
 
 header img {
-  transition-duration: 1s;
   width: 120px;
   height: 30px;
-}
-
-header img:hover {
-  transform: scale(1.1);
 }
 
 header nav ul li {
@@ -43,12 +40,7 @@ header nav ul li {
 
 header nav ul li:hover {
   transform: scale(1.2);
-}
-
-.menu .menu_dos ul li a {
-  font-size: 18px;
-  text-decoration: none;
-  color: white;
+  text-decoration: underline;
 }
 
 /*-----MAIN CAFE-------*/
@@ -191,7 +183,7 @@ header nav ul li:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(104, 63, 2, 0.459)),
     url(../img/semillas.jpg);
   text-align: center;
-  color: rgb(2, 116, 116);
+  color: white;
   width: 1550px;
   height: 700px;
   transition-property: width;
@@ -207,7 +199,7 @@ header nav ul li:hover {
     url(../img/cafe_molido.jpg);
   background-position: center;
   text-align: center;
-  color: rgb(2, 116, 116);
+  color: white;
   width: 1550px;
   height: 700px;
   transition-property: width;
@@ -223,12 +215,12 @@ header nav ul li:hover {
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
-  background-image: url(../img/muchas_semillas.jpg);
+  background-color: rgb(244, 245, 245);
 }
 
 #grano div h2 {
   color: rgb(2, 179, 179);
-  padding: 30px;
+  margin-top: 100px;
   width: 800px;
   text-align: center;
   font-size: 30px;
@@ -236,14 +228,14 @@ header nav ul li:hover {
 }
 
 #grano div p {
-  color: rgb(2, 116, 116);
+  color: rgb(2, 68, 68);
   width: 800px;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
 
 #grano img {
-  padding: 15px;
+  padding: 50px;
   width: 45%;
   height: 600px;
 }
@@ -370,8 +362,8 @@ header nav ul li:hover {
 
 .contacta_con_nosotros {
   background: linear-gradient(
-      rgba(100, 57, 1, 0.897),
-      rgba(255, 255, 255, 0.541)
+      rgba(100, 57, 1, 0.836),
+      rgba(255, 255, 255, 0.479)
     ),
     url(../img/tabla_cafe.jpg);
   background-repeat: no-repeat;
@@ -397,34 +389,41 @@ header nav ul li:hover {
   border-color: rgb(145, 47, 2);
 }
 
+.contacta_con_nosotros .enviar_borrar {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
 /*-----PRODUCTOS------*/
+
+.ojo {
+  background-image: url(../img/fondo_productos.jpg);
+}
 
 .objetos {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
   background-repeat: no-repeat;
   background-position: left;
-  height: 600px;
+  height: 750px;
 }
 
 .objetos h2 {
   font-family: "Montserrat", sans-serif;
   color: chocolate;
-  width: 45%;
-  padding: 20px;
-  text-align: left;
-  font-size: 30px;
+  text-align: center;
+  font-size: 80px;
+  padding: 50px;
+  text-decoration: underline;
 }
 
 .objetos p {
   font-family: "Montserrat", sans-serif;
   color: white;
-  width: 45%;
+  text-align: center;
+  font-size: 40px;
   padding: 20px;
-  text-align: left;
-  font-size: 30px;
 }
 
 .explicacion_objetos {
@@ -432,7 +431,6 @@ header nav ul li:hover {
   align-items: center;
   background-repeat: no-repeat;
   background-position: right;
-  background-color: black;
   height: 600px;
 }
 
@@ -445,8 +443,8 @@ header nav ul li:hover {
   color: chocolate;
   width: 85%;
   padding: 20px;
-  text-align: right;
-  font-size: 30px;
+  text-align: center;
+  font-size: 35px;
 }
 
 .explicacion_objetos p {
@@ -454,24 +452,22 @@ header nav ul li:hover {
   color: white;
   width: 85%;
   padding: 20px;
-  text-align: right;
+  text-align: center;
   font-size: 30px;
 }
 
 .intro_productos {
-  background-color: black;
   color: chocolate;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   text-align: center;
-  padding: 50px;
+  padding: 80px;
 }
 
 .productos {
-  background-color: black;
   padding: 50px;
   display: grid;
-  grid-template-columns: 350px 250px 250px 460px;
+  grid-template-columns: 280px 250px 280px 460px;
   grid-template-rows: 350px 350px;
   gap: 40px;
   width: 100%;
@@ -483,19 +479,15 @@ header nav ul li:hover {
   height: 100%;
 }
 
-.productos_grid {
-  background-color: black;
-}
-
 .primer_item {
   transition-duration: 1s;
 }
 
 .primer_item:hover {
   transform: scale(1.1);
-  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
 }
 
 .segundo_item {
@@ -506,9 +498,9 @@ header nav ul li:hover {
 
 .segundo_item:hover {
   transform: scale(1.1);
-  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
 }
 
 .cuarto_item {
@@ -519,9 +511,9 @@ header nav ul li:hover {
 
 .cuarto_item:hover {
   transform: scale(1.1);
-  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
 }
 
 .quinto_item {
@@ -532,9 +524,9 @@ header nav ul li:hover {
 
 .quinto_item:hover {
   transform: scale(1.1);
-  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
 }
 
 .sexto_item {
@@ -543,9 +535,21 @@ header nav ul li:hover {
 
 .sexto_item:hover {
   transform: scale(1.1);
-  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+  -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+}
+
+.seguir {
+  height: 150px;
+}
+
+.seguir p {
+  padding: 28px;
+  text-align: center;
+  color: chocolate;
+  font-size: 40px;
+  text-decoration: overline;
 }
 
 /*-----MAIN INDEX-----*/
@@ -729,7 +733,7 @@ header nav ul li:hover {
   text-align: left;
   padding: 10px;
   font-family: "Poppins", sans-serif;
-  color: rgb(141, 134, 141);
+  color: rgb(179, 128, 52);
 }
 
 .cafetera_explocion .primero p {
@@ -737,7 +741,7 @@ header nav ul li:hover {
   text-align: left;
   padding: 10px;
   font-family: "Montserrat", sans-serif;
-  color: rgb(243, 236, 243);
+  color: rgb(235, 189, 122);
 }
 
 .cafetera_explocion .segundo h2 {
@@ -759,7 +763,6 @@ header nav ul li:hover {
 
 footer {
   width: 100%;
-  grid-area: footer;
   background-color: rgba(126, 47, 1, 0.562);
 }
 
@@ -770,231 +773,528 @@ footer div {
 }
 
 footer div a img {
-  width: 50px;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 55px;
+  height: 55px;
   transition: 1s;
-  padding: 5px;
+  margin: 25px;
 }
 
 footer div a img:hover {
   transform: scale(1.3);
 }
 
+footer p {
+  font-family: "Poppins", sans-serif;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(122, 55, 7);
+}
+
 /*--------@MEDIA-------*/
 
-  @media screen and (max-width: 609px) {
-    .mini_presso {
-      height: 700px;
-    }
-    .mini_presso div h2 {
-      background-color: rgba(243, 212, 171, 0.726);
-    }
-    .mini_presso div p {
-      background-color: rgba(243, 212, 171, 0.726);
-    }
-    .mini_presso div h3 {
-      background-color: rgba(243, 212, 171, 0.726);
-    }
-    .header nav ul {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+@media screen and (max-width: 609px) {
+  .objetos div h2 {
+    font-size: 50px;
   }
-
-  @media screen and (max-width: 1115px) {
-    .grano_capsula {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .grano_capsula .primero {
-      width: 100%;
-    }
-    .grano_capsula .segundo {
-      width: 100%;
-    }
-    .cafetera_explocion {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .cafetera_explocion .primero {
-      width: 100%;
-    }
-    .cafetera_explocion .segundo {
-      width: 100%;
-    }
+  .objetos div p {
+    font-size: 30px;
   }
-
-  @media screen and (max-width: 831px) {
-    .mini_presso div h2 {
-      font-size: 40px;
-    }
-    .mini_presso div p {
-      font-size: 20px;
-    }
-    .mini_presso div h3 {
-      font-size: 20px;
-    }
+  .mini_presso {
+    height: 700px;
   }
-
-  @media screen and (max-width: 923px) {
-    .mini_presso div h2 {
-      margin-right: 10px;
-    }
-    .mini_presso div p {
-      margin-right: 10px;
-    }
-    .mini_presso div h3 {
-      margin-right: 10px;
-    }
+  .mini_presso div h2 {
+    background-color: rgba(243, 212, 171, 0.726);
   }
-
-  @media screen and (max-width: 991px) {
-    .header div ul {
-      background-color: rgba(180, 127, 91, 0.959);
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+  .mini_presso div p {
+    background-color: rgba(243, 212, 171, 0.726);
   }
-
-  @media screen and (max-width: 1255px) {
-    .taza_cafe h2 {
-      font-size: 40px;
-      padding: 10px;
-    }
-    .taza_cafe p {
-      font-size: 20px;
-      padding: 10px;
-    }
+  .mini_presso div h3 {
+    background-color: rgba(243, 212, 171, 0.726);
   }
-
-  @media screen and (max-width: 475px) {
-    .taza_cafe h2 {
-      font-size: 30px;
-    }
-    .taza_cafe p {
-      font-size: 20px;
-    }
+  .header nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+}
 
-  @media screen and (max-width: 1257px) {
-    .origen p {
-      font-size: 15px;
-    }
+@media screen and (max-width: 1115px) {
+  .grano_capsula {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-
-  @media screen and (max-width: 461px) {
-    .origen_tres img {
-      width: 80%;
-      height: 50%;
-    }
-    .origen img {
-      width: 90%;
-      height: 60%;
-    }
+  .grano_capsula .primero {
+    width: 100%;
   }
-
-  @media screen and (max-width: 511px) {
-    .origen_dos img {
-      width: 90%;
-      height: 60%;
-    }
+  .grano_capsula .segundo {
+    width: 100%;
   }
-
-  @media screen and (max-width: 805px) {
-    .origen div {
-      padding: 20px;
-    }
-    .origen_dos p {
-      font-size: 20px;
-      padding: 10px;
-    }
+  .cafetera_explocion {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-
-  @media screen and (max-width: 929px) {
-    .origen_tres p {
-      font-size: 15px;
-    }
-    .origen_tres h2 {
-      font-size: 25px;
-    }
-    .origen_tres img {
-      margin-top: 25px;
-    }
+  .cafetera_explocion .primero {
+    width: 100%;
   }
-
-  @media screen and (max-width: 783px) {
-    .origen_tres img {
-      margin-top: 45px;
-    }
+  .cafetera_explocion .segundo {
+    width: 100%;
   }
+}
 
-  @media screen and (max-width: 503px) {
-    .origen_tres img {
-      margin-top: 65px;
-    }
+@media screen and (max-width: 831px) {
+  .mini_presso div h2 {
+    font-size: 40px;
   }
-
-  @media screen and (max-width: 415px) {
-    .origen_tres p {
-      padding: 1 0px;
-    }
+  .mini_presso div p {
+    font-size: 20px;
   }
-
-  @media screen and (max-width: 359px) {
-    .cafetera_explocion .segundo p {
-      color: rgb(112, 36, 0);
-    }
+  .mini_presso div h3 {
+    font-size: 20px;
   }
-
-  @media screen and (max-width: 357px) {
-    .taza_cafe p {
-      background-color: rgba(112, 35, 0, 0.445);
-    }
+  #grano div p {
+    padding: 5px;
+    font-size: 5px;
   }
-
-  @media screen and (max-width: 409px) {
-    .cafetera_explocion .segundo h2 {
-      font-size: 25px;
-    }
+  #molido div p {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
   }
-
-  @media screen and (max-width: 333px) {
-    .grano_capsula .segundo h2 {
-      position: relative;
-      top: 130px;
-      right: 20px;
-    }
-    .grano_capsula .segundo p {
-      position: relative;
-      top: 130px;
-      right: 10px;
-    }
+  #molido img {
+    width: 300px;
+    height: 300px;
   }
+}
 
-  @media screen and (max-width: 305px) {
-    .cafetera_explocion .primero p {
-      color: rgb(173, 171, 173);
-      background-color: rgba(0, 0, 0, 0.658);
-      text-align: center;
-      font-size: 19px;
-    }
-    .cafetera_explocion .primero h2 {
-      font-size: 20px;
-      background-color: rgba(0, 0, 0, 0.658);
-      text-align: center;
-    }
+@media screen and (max-width: 923px) {
+  .mini_presso div h2 {
+    margin-right: 10px;
   }
+  .mini_presso div p {
+    margin-right: 10px;
+  }
+  .mini_presso div h3 {
+    margin-right: 10px;
+  }
+}
 
-  @media screen and (max-width: 324px) {
-    .grano_capsula .primero p {
-      background-color: rgba(194, 158, 128, 0.575);
-      color: rgb(54, 19, 2);
-    }
+@media screen and (max-width: 991px) {
+  header div ul {
+    background-color: rgba(180, 127, 91, 0.959);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .taza_cafe h2 {
+    font-size: 40px;
+    padding: 10px;
+  }
+  .taza_cafe p {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .taza_cafe h2 {
+    font-size: 30px;
+  }
+  .taza_cafe p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1257px) {
+  .origen p {
+    font-size: 15px;
+  }
+  #grano div p {
+    font-size: 18px;
+  }
+  #molido img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 461px) {
+  footer p {
+    font-size: 25px;
+  }
+  .origen_tres img {
+    width: 80%;
+    height: 50%;
+  }
+  .origen img {
+    width: 90%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .origen_dos img {
+    width: 90%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .origen div {
+    padding: 20px;
+  }
+  .origen_dos p {
+    font-size: 20px;
+    padding: 10px;
+  }
+  #grano div p {
+    margin: auto;
+    width: 70%;
+  }
+  #molido div p {
+    margin: auto;
+    width: 70%;
+  }
+  #grano div h2 {
+    margin: auto;
+    width: 70%;
+  }
+  #molido div h2 {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 929px) {
+  .local_uno p {
+    font-size: 15px;
+    margin: auto;
+    width: 100%;
+  }
+  .local_dos div p {
+    font-size: 15px;
+    margin: auto;
+    width: 100%;
+  }
+  .origen_tres p {
+    font-size: 15px;
+  }
+  .origen_tres h2 {
+    font-size: 25px;
+  }
+  .origen_tres img {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .origen_tres img {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  .origen_tres img {
+    margin-top: 65px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .origen_tres p {
+    padding: 1 0px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .cafetera_explocion .segundo p {
+    color: rgb(112, 36, 0);
+  }
+  .objetos div h2 {
+    font-size: 40px;
+  }
+  .objetos div p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 357px) {
+  .taza_cafe p {
+    background-color: rgba(112, 35, 0, 0.445);
+  }
+}
+
+@media screen and (max-width: 409px) {
+  .cafetera_explocion .segundo h2 {
+    font-size: 25px;
+  }
+  /* #grano img {
+    width: 300px;
+    height: 300px;
+  }
+  #molido img {
+    width: 300px;
+    height: 300px;
+  }*/
+}
+
+@media screen and (max-width: 333px) {
+  .contacta_con_nosotros .comentario textarea {
+    width: 200px;
+  }
+  .grano_capsula .segundo h2 {
+    position: relative;
+    top: 130px;
+    right: 20px;
+  }
+  .grano_capsula .segundo p {
+    position: relative;
+    top: 130px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .cafetera_explocion .primero p {
+    color: rgb(173, 171, 173);
+    background-color: rgba(0, 0, 0, 0.658);
+    text-align: center;
+    font-size: 19px;
+  }
+  .cafetera_explocion .primero h2 {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.658);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  .grano_capsula .primero p {
+    background-color: rgba(194, 158, 128, 0.575);
+    color: rgb(54, 19, 2);
+  }
+}
+
+@media screen and (max-width: 1309px) {
+  #grano img {
+    width: 35%;
+    height: 450px;
+  }
+  #grano {
+    height: 600px;
+  }
+  #molido img {
+    height: 600px;
+  }
+  .productos {
+    grid-template-columns: 230px 200px 230px 410px;
+    grid-template-rows: 310px 310px;
+  }
+  .explicacion_objetos img {
+    width: 600px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 1231px) {
+  #grano img {
+    width: 400px;
+    height: 390px;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  /*.productos {
+    grid-template-columns: 100px 220px 100px;
+    grid-template-rows: 250px 150px 250px 150px 250px;
+  }
+  .primer_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .segundo_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .cuarto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .quinto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .sexto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }*/
+  .cafetera_explocion .primero h2 {
+    background-color: rgba(0, 0, 0, 0.705);
+  }
+  .cafetera_explocion .primero p {
+    background-color: rgba(0, 0, 0, 0.705);
+  }
+}
+
+@media screen and (max-width: 1114px) {
+  .explicacion_objetos div p {
+    font-size: 20px;
+  }
+  .explicacion_objetos img {
+    width: 650px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1201px) {
+  #grano {
+    height: 800px;
+  }
+  #grano img {
+    padding-top: 30px;
+  }
+  #grano div p {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+  }
+  #molido img {
+    width: 400px;
+    height: 500px;
+  }
+  .productos {
+    grid-template-columns: 200px 170px 200px 380px;
+    grid-template-rows: 280px 280px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .productos {
+    grid-template-columns: 170px 140px 170px 350px;
+    grid-template-rows: 250px 250px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  #grano div p {
+    font-size: 12px;
+  }
+  #molido div p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .productos {
+    grid-template-columns: 50px 280px 50px;
+    grid-template-rows: 350px 190px 350px 190px 330px;
+  }
+  .primer_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .segundo_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .cuarto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .quinto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .sexto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  .explicacion_objetos div h2 {
+    font-size: 25px;
+  }
+  .explicacion_objetos div p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .explicacion_objetos {
+    flex-direction: column;
+  }
+  .explicacion_objetos img {
+    width: 60%;
+    height: 55%;
+  }
+  .explicacion_objetos div h2 {
+    font-size: 30px;
+    margin: auto;
+    width: 70%;
+  }
+  .explicacion_objetos div p {
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+  }
+  .intro_productos p {
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1153px) {
+  .local_uno {
+    flex-direction: column;
+  }
+  .local_uno iframe {
+    margin: auto;
+    width: 500px;
+  }
+  .local_uno div p {
+    margin: auto;
+    width: 100%;
+  }
+  .local_dos {
+    flex-direction: column;
+  }
+  .local_dos iframe {
+    margin: auto;
+    width: 500px;
+  }
+  .local_dos div p {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .local_uno iframe {
+    width: 300px;
+  }
+  .local_dos iframe {
+    width: 300px;
   }
 }
