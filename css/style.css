@@ -312,7 +312,7 @@ header nav ul li:hover {
 }
 
 .local_uno h2 {
-  color: rgb(238, 130, 83);
+  color: rgb(245, 175, 142);
   font-family: "Poppins", sans-serif;
   font-size: 35px;
   padding: 20px;
@@ -1190,6 +1190,9 @@ footer p {
 }
 
 @media screen and (max-width: 545px) {
+  .contacta_con_nosotros .comentario textarea {
+    width: 80%;
+  }
   #grano div p {
     font-size: 12px;
   }
