@@ -1232,6 +1232,7 @@ footer p {
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 6;
+  }
   .explicacion_objetos div h2 {
     font-size: 25px;
   }
