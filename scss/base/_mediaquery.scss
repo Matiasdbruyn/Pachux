@@ -1,0 +1,469 @@
+/*------MEDIAQUERY------*/
+
+@media screen and (max-width: 609px) {
+  .ojo .objetos div h2 {
+    font-size: 50px;
+  }
+  .ojo .objetos div p {
+    font-size: 30px;
+  }
+  .mini_presso {
+    height: 700px;
+  }
+  .mini_presso div h2 {
+    background-color: rgba(243, 212, 171, 0.726);
+  }
+  .mini_presso div p {
+    background-color: rgba(243, 212, 171, 0.726);
+  }
+  .mini_presso div h3 {
+    background-color: rgba(243, 212, 171, 0.726);
+  }
+  .header nav div div ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .grano_capsula {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grano_capsula .primero {
+    width: 100%;
+  }
+  .grano_capsula .segundo {
+    width: 100%;
+  }
+  .cafetera_explocion {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cafetera_explocion .primero {
+    width: 100%;
+  }
+  .cafetera_explocion .segundo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 831px) {
+  .mini_presso div h2 {
+    font-size: 40px;
+  }
+  .mini_presso div p {
+    font-size: 20px;
+  }
+  .mini_presso div h3 {
+    font-size: 20px;
+  }
+  #grano div p {
+    padding: 5px;
+    font-size: 5px;
+  }
+  #molido div p {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+  }
+  #molido img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 923px) {
+  .mini_presso div h2 {
+    margin-right: 10px;
+  }
+  .mini_presso div p {
+    margin-right: 10px;
+  }
+  .mini_presso div h3 {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  header nav div div ul {
+    background-color: rgba(180, 127, 91, 0.959);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .taza_cafe div h2 {
+    font-size: 40px;
+    padding: 10px;
+  }
+  .taza_cafe div p {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .taza_cafe div h2 {
+    font-size: 30px;
+  }
+  .taza_cafe div p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1257px) {
+  .origen div p {
+    font-size: 15px;
+  }
+  #grano div p {
+    font-size: 18px;
+  }
+  #molido img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 461px) {
+  footer p {
+    font-size: 25px;
+  }
+  .origen_tres img {
+    width: 80%;
+    height: 50%;
+  }
+  .origen img {
+    width: 90%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .origen_dos img {
+    width: 90%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .origen div {
+    padding: 20px;
+  }
+  .origen_dos div p {
+    font-size: 20px;
+    padding: 10px;
+  }
+  #grano div p {
+    margin: auto;
+    width: 70%;
+  }
+  #molido div p {
+    margin: auto;
+    width: 70%;
+  }
+  #grano div h2 {
+    margin: auto;
+    width: 70%;
+  }
+  #molido div h2 {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 929px) {
+  .local_uno div p {
+    font-size: 15px;
+    margin: auto;
+    width: 100%;
+  }
+  .local_dos div p {
+    font-size: 15px;
+    margin: auto;
+    width: 100%;
+  }
+  .origen_tres div p {
+    font-size: 15px;
+  }
+  .origen_tres div h2 {
+    font-size: 25px;
+  }
+  .origen_tres img {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .origen_tres img {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  .origen_tres img {
+    margin-top: 65px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .origen_tres div p {
+    padding: 1 0px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .cafetera_explocion .segundo p {
+    color: rgb(112, 36, 0);
+  }
+  .ojo .objetos div h2 {
+    font-size: 40px;
+  }
+  .ojo .objetos div p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 357px) {
+  .taza_cafe div p {
+    background-color: rgba(112, 35, 0, 0.445);
+  }
+}
+
+@media screen and (max-width: 409px) {
+  .cafetera_explocion .segundo h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 333px) {
+  .contacta_con_nosotros .comentario textarea {
+    width: 200px;
+  }
+  .grano_capsula .segundo h2 {
+    position: relative;
+    top: 130px;
+    right: 20px;
+  }
+  .grano_capsula .segundo p {
+    position: relative;
+    top: 130px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .cafetera_explocion .primero p {
+    color: rgb(173, 171, 173);
+    background-color: rgba(0, 0, 0, 0.658);
+    text-align: center;
+    font-size: 19px;
+  }
+  .cafetera_explocion .primero h2 {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.658);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  .grano_capsula .primero p {
+    background-color: rgba(194, 158, 128, 0.575);
+    color: rgb(54, 19, 2);
+  }
+}
+
+@media screen and (max-width: 1309px) {
+  #grano img {
+    width: 35%;
+    height: 450px;
+  }
+  #grano {
+    height: 600px;
+  }
+  #molido img {
+    height: 600px;
+  }
+  .ojo .productos {
+    grid-template-columns: 230px 200px 230px 410px;
+    grid-template-rows: 310px 310px;
+  }
+  .ojo .explicacion_objetos img {
+    width: 600px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 1231px) {
+  #grano img {
+    width: 400px;
+    height: 390px;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .cafetera_explocion .primero h2 {
+    background-color: rgba(0, 0, 0, 0.705);
+  }
+  .cafetera_explocion .primero p {
+    background-color: rgba(0, 0, 0, 0.705);
+  }
+}
+
+@media screen and (max-width: 1114px) {
+  .ojo .explicacion_objetos div p {
+    font-size: 20px;
+  }
+  .ojo .explicacion_objetos img {
+    width: 650px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1201px) {
+  #grano {
+    height: 800px;
+  }
+  #grano img {
+    padding-top: 30px;
+  }
+  #grano div p {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+  }
+  #molido img {
+    width: 400px;
+    height: 500px;
+  }
+  .ojo .productos {
+    grid-template-columns: 200px 170px 200px 380px;
+    grid-template-rows: 280px 280px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .ojo .productos {
+    grid-template-columns: 170px 140px 170px 350px;
+    grid-template-rows: 250px 250px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .contacta_con_nosotros .comentario textarea {
+    width: 80%;
+  }
+  #grano div p {
+    font-size: 12px;
+  }
+  #molido div p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .ojo .productos {
+    grid-template-columns: 50px 280px 50px;
+    grid-template-rows: 350px 190px 350px 190px 330px;
+  }
+  .ojo .productos .primer_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .ojo .productos .segundo_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .ojo .productos .cuarto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .ojo .productos .quinto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .ojo .productos .sexto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .ojo .explicacion_objetos div h2 {
+    font-size: 25px;
+  }
+  .ojo .explicacion_objetos div p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .ojo .explicacion_objetos {
+    flex-direction: column;
+  }
+  .ojo .explicacion_objetos img {
+    width: 60%;
+    height: 55%;
+  }
+  .ojo .explicacion_objetos div h2 {
+    font-size: 30px;
+    margin: auto;
+    width: 70%;
+  }
+  .ojo .explicacion_objetos div p {
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+  }
+  .ojo .intro_productos p {
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1153px) {
+  .local_uno {
+    flex-direction: column;
+  }
+  .local_uno iframe {
+    margin: auto;
+    width: 500px;
+  }
+  .local_uno div p {
+    margin: auto;
+    width: 100%;
+  }
+  .local_dos {
+    flex-direction: column;
+  }
+  .local_dos iframe {
+    margin: auto;
+    width: 500px;
+  }
+  .local_dos div p {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .local_uno iframe {
+    width: 300px;
+  }
+  .local_dos iframe {
+    width: 300px;
+  }
+}

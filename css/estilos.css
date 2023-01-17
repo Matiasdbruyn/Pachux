@@ -6,9 +6,6 @@
 
 /*------HEADER-----*/
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: sticky;
   top: 0;
   z-index: 1; }
@@ -29,6 +26,543 @@ header {
       header nav div div ul li:hover {
         transform: scale(1.2);
         text-decoration: underline; }
+
+/*-----INDEX------*/
+.mini_presso {
+  grid-area: mini_presso;
+  width: 100%;
+  height: 750px;
+  background-image: url(../img/mini_sinfondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: right; }
+  .mini_presso div h2 {
+    color: #995112;
+    font-size: 60px;
+    margin-right: 15px;
+    padding: 30px;
+    font-family: "Poppins", sans-serif; }
+  .mini_presso div p {
+    color: #995112;
+    font-size: 30px;
+    margin-right: 15px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif; }
+  .mini_presso div h3 {
+    color: #995112;
+    font-size: 30px;
+    margin-right: 15px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif; }
+
+.taza_cafe {
+  grid-area: taza_cafe;
+  color: white;
+  background-image: url(../img/cafe_index.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: right; }
+  .taza_cafe div h2 {
+    color: sandybrown;
+    font-size: 50px;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 10px; }
+  .taza_cafe div p {
+    color: #fad0ac;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 5px; }
+
+.grano_capsula {
+  background-color: rgba(238, 238, 238, 0.637);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap; }
+  .grano_capsula .primero {
+    grid-area: grano_capsula_primero;
+    background-image: url(../img/semilla_cafe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 500px;
+    transition-duration: 1s; }
+    .grano_capsula .primero:hover {
+      transform: scale(1.1); }
+    .grano_capsula .primero h2 {
+      font-weight: 900;
+      text-align: center;
+      padding: 10px;
+      font-family: "Poppins", sans-serif;
+      color: #662609; }
+    .grano_capsula .primero p {
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+      color: #662609; }
+  .grano_capsula .segundo {
+    grid-area: grano_capsula_segundo;
+    background-image: url(../img/capsulas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 500px;
+    transition-duration: 1s; }
+    .grano_capsula .segundo:hover {
+      transform: scale(1.1); }
+    .grano_capsula .segundo h2 {
+      text-align: center;
+      padding: 10px;
+      font-family: "Poppins", sans-serif;
+      position: relative;
+      top: 130px;
+      right: 60px; }
+    .grano_capsula .segundo p {
+      text-align: center;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+      position: relative;
+      top: 120px;
+      right: 20px; }
+
+.cafetera_explocion {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: rgba(238, 238, 238, 0.637);
+  flex-wrap: wrap; }
+  .cafetera_explocion .primero {
+    grid-area: cafetera_explocion_primero;
+    color: white;
+    background-image: url(../img/cafetera_paisaje.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 500px;
+    transition-duration: 1s; }
+    .cafetera_explocion .primero:hover {
+      transform: scale(1.1); }
+    .cafetera_explocion .primero h2 {
+      text-align: left;
+      padding: 10px;
+      font-family: "Poppins", sans-serif;
+      color: #b38034; }
+    .cafetera_explocion .primero p {
+      font-size: 20px;
+      text-align: left;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+      color: #ebbd7a; }
+  .cafetera_explocion .segundo {
+    color: #c07621;
+    background-image: url(../img/cafe_corazon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 500px;
+    transition-duration: 1s; }
+    .cafetera_explocion .segundo:hover {
+      transform: scale(1.1); }
+    .cafetera_explocion .segundo h2 {
+      margin-right: 150px;
+      text-align: center;
+      padding: 10px;
+      font-family: "Poppins", sans-serif; }
+    .cafetera_explocion .segundo p {
+      margin-right: 150px;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif; }
+
+/*-----CAFE------*/
+.origen {
+  background-color: rgba(133, 81, 13, 0.253);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  .origen div {
+    width: 800px;
+    font-size: 20px; }
+    .origen div h2 {
+      font-family: "Poppins", sans-serif;
+      color: #724306;
+      padding: 20px;
+      text-align: center;
+      font-size: 40px; }
+    .origen div p {
+      font-family: "Montserrat", sans-serif;
+      color: #5c3502;
+      text-align: center; }
+  .origen img {
+    margin-top: 15px;
+    width: 450px;
+    height: 650px; }
+
+.origen_dos {
+  background-color: rgba(133, 81, 13, 0.247);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  .origen_dos img {
+    margin-top: 15px;
+    width: 500px;
+    height: 700px; }
+  .origen_dos div {
+    width: 800px;
+    font-size: 20px; }
+    .origen_dos div h2 {
+      font-family: "Poppins", sans-serif;
+      color: #724306;
+      padding: 20px;
+      text-align: center; }
+    .origen_dos div p {
+      font-family: "Montserrat", sans-serif;
+      color: #5c3502; }
+
+.origen_tres {
+  background-color: rgba(133, 81, 13, 0.247);
+  text-align: center; }
+  .origen_tres div {
+    background-color: rgba(133, 81, 13, 0.247);
+    position: relative;
+    top: 80px;
+    color: #613904; }
+    .origen_tres div p {
+      font-family: "Poppins", sans-serif;
+      font-size: 25px; }
+    .origen_tres div h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 25px; }
+  .origen_tres img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 50%; }
+
+/*-----ESTILO------*/
+.estilo_grano {
+  background-color: rgba(238, 238, 238, 0.637);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .estilo_grano .primero {
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(104, 63, 2, 0.459)), url(../img/semillas.jpg);
+    text-align: center;
+    color: white;
+    width: 1550px;
+    height: 700px;
+    transition-property: width;
+    transition-duration: 1s; }
+    .estilo_grano .primero:hover {
+      width: 2500px; }
+    .estilo_grano .primero h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      position: relative;
+      top: 300px; }
+    .estilo_grano .primero li {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      position: relative;
+      top: 300px;
+      list-style: none; }
+      .estilo_grano .primero li a {
+        text-decoration: none;
+        color: cyan; }
+  .estilo_grano .segundo {
+    background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(253, 191, 76, 0.411)), url(../img/cafe_molido.jpg);
+    background-position: center;
+    text-align: center;
+    color: white;
+    width: 1550px;
+    height: 700px;
+    transition-property: width;
+    transition-duration: 1s; }
+    .estilo_grano .segundo:hover {
+      width: 2500px; }
+    .estilo_grano .segundo h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      position: relative;
+      top: 300px; }
+    .estilo_grano .segundo li {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      position: relative;
+      top: 300px; }
+
+#grano {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #f4f5f5; }
+  #grano img {
+    padding: 50px;
+    width: 45%;
+    height: 600px; }
+  #grano div h2 {
+    color: #02b3b3;
+    margin-top: 100px;
+    width: 800px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif; }
+  #grano div p {
+    color: #024444;
+    width: 800px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px; }
+
+#molido {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f4f5f5; }
+  #molido div h2 {
+    color: #02b3b3;
+    padding: 30px;
+    width: 800px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif; }
+  #molido div p {
+    color: #027474;
+    width: 800px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px; }
+  #molido img {
+    padding: 15px;
+    width: 30%;
+    height: 700px; }
+
+/*-----PRODUCTOS------*/
+.ojo {
+  background-image: url(../img/fondo_productos.jpg); }
+  .ojo .objetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 750px; }
+    .ojo .objetos div h2 {
+      font-family: "Montserrat", sans-serif;
+      color: chocolate;
+      text-align: center;
+      font-size: 80px;
+      padding: 50px;
+      text-decoration: underline; }
+    .ojo .objetos div p {
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 40px;
+      padding: 20px; }
+  .ojo .explicacion_objetos {
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px; }
+    .ojo .explicacion_objetos div h2 {
+      font-family: "Poppins", sans-serif;
+      color: chocolate;
+      width: 85%;
+      padding: 20px;
+      text-align: center;
+      font-size: 35px; }
+    .ojo .explicacion_objetos div p {
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      width: 85%;
+      padding: 20px;
+      text-align: center;
+      font-size: 30px; }
+    .ojo .explicacion_objetos img {
+      margin-right: 50px; }
+  .ojo .intro_productos p {
+    color: chocolate;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 80px; }
+  .ojo .productos {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 280px 250px 280px 460px;
+    grid-template-rows: 350px 350px;
+    gap: 40px;
+    width: 100%;
+    justify-content: center; }
+    .ojo .productos .primer_item {
+      transition-duration: 1s; }
+      .ojo .productos .primer_item:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74); }
+      .ojo .productos .primer_item img {
+        width: 100%;
+        height: 100%; }
+    .ojo .productos .segundo_item {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      transition-duration: 1s; }
+      .ojo .productos .segundo_item:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74); }
+      .ojo .productos .segundo_item img {
+        width: 100%;
+        height: 100%; }
+    .ojo .productos .cuarto_item {
+      grid-row: span 2;
+      width: 100%;
+      transition-duration: 1s; }
+      .ojo .productos .cuarto_item:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74); }
+      .ojo .productos .cuarto_item img {
+        width: 100%;
+        height: 100%; }
+    .ojo .productos .quinto_item {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      transition-duration: 1s; }
+      .ojo .productos .quinto_item:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74); }
+      .ojo .productos .quinto_item img {
+        width: 100%;
+        height: 100%; }
+    .ojo .productos .sexto_item {
+      transition-duration: 1s; }
+      .ojo .productos .sexto_item:hover {
+        transform: scale(1.1);
+        box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -webkit-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74);
+        -moz-box-shadow: 7px 5px 37px -1px rgba(158, 80, 8, 0.74); }
+      .ojo .productos .sexto_item img {
+        width: 100%;
+        height: 100%; }
+  .ojo .seguir {
+    height: 150px; }
+    .ojo .seguir p {
+      padding: 28px;
+      text-align: center;
+      color: chocolate;
+      font-size: 40px;
+      text-decoration: overline; }
+
+/*-----LOCALES------*/
+.presentacion_lugares {
+  background: linear-gradient(rgba(255, 255, 255, 0.479), rgba(100, 57, 1, 0.582)), url(../img/mapa_fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .presentacion_lugares h2 {
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: #8f3207;
+    font-size: 40px; }
+
+.local_uno {
+  background: linear-gradient(rgba(100, 57, 1, 0.836), rgba(255, 255, 255, 0.479)), url(../img/fondo_cafeteria.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly; }
+  .local_uno div h2 {
+    color: #f5af8e;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center; }
+  .local_uno div p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+    color: #702400;
+    background-color: rgba(219, 112, 62, 0.5); }
+
+.local_dos {
+  background: linear-gradient(rgba(255, 255, 255, 0.541), rgba(100, 57, 1, 0.897)), url(../img/venta_cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly; }
+  .local_dos div h2 {
+    color: #c23d00;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center; }
+  .local_dos div p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+    color: #702400;
+    background-color: rgba(219, 112, 62, 0.5); }
+
+.contacta_con_nosotros {
+  background: linear-gradient(rgba(100, 57, 1, 0.836), rgba(255, 255, 255, 0.479)), url(../img/tabla_cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .contacta_con_nosotros .comentario h3 {
+    text-align: center;
+    color: #f5af8e;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px; }
+  .contacta_con_nosotros .comentario textarea {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    border-color: #912f02; }
+  .contacta_con_nosotros .enviar_borrar {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; }
 
 /*------FOOTER------*/
 footer {
@@ -52,3 +586,341 @@ footer {
       margin: 25px; }
       footer div a img:hover {
         transform: scale(1.3); }
+
+/*------MEDIAQUERY------*/
+@media screen and (max-width: 609px) {
+  .ojo .objetos div h2 {
+    font-size: 50px; }
+  .ojo .objetos div p {
+    font-size: 30px; }
+  .mini_presso {
+    height: 700px; }
+  .mini_presso div h2 {
+    background-color: rgba(243, 212, 171, 0.726); }
+  .mini_presso div p {
+    background-color: rgba(243, 212, 171, 0.726); }
+  .mini_presso div h3 {
+    background-color: rgba(243, 212, 171, 0.726); }
+  .header nav div div ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+@media screen and (max-width: 1115px) {
+  .grano_capsula {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .grano_capsula .primero {
+    width: 100%; }
+  .grano_capsula .segundo {
+    width: 100%; }
+  .cafetera_explocion {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .cafetera_explocion .primero {
+    width: 100%; }
+  .cafetera_explocion .segundo {
+    width: 100%; } }
+
+@media screen and (max-width: 831px) {
+  .mini_presso div h2 {
+    font-size: 40px; }
+  .mini_presso div p {
+    font-size: 20px; }
+  .mini_presso div h3 {
+    font-size: 20px; }
+  #grano div p {
+    padding: 5px;
+    font-size: 5px; }
+  #molido div p {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px; }
+  #molido img {
+    width: 300px;
+    height: 300px; } }
+
+@media screen and (max-width: 923px) {
+  .mini_presso div h2 {
+    margin-right: 10px; }
+  .mini_presso div p {
+    margin-right: 10px; }
+  .mini_presso div h3 {
+    margin-right: 10px; } }
+
+@media screen and (max-width: 991px) {
+  header nav div div ul {
+    background-color: rgba(180, 127, 91, 0.959);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+@media screen and (max-width: 1255px) {
+  .taza_cafe div h2 {
+    font-size: 40px;
+    padding: 10px; }
+  .taza_cafe div p {
+    font-size: 20px;
+    padding: 10px; } }
+
+@media screen and (max-width: 475px) {
+  .taza_cafe div h2 {
+    font-size: 30px; }
+  .taza_cafe div p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 1257px) {
+  .origen div p {
+    font-size: 15px; }
+  #grano div p {
+    font-size: 18px; }
+  #molido img {
+    width: 400px; } }
+
+@media screen and (max-width: 461px) {
+  footer p {
+    font-size: 25px; }
+  .origen_tres img {
+    width: 80%;
+    height: 50%; }
+  .origen img {
+    width: 90%;
+    height: 60%; } }
+
+@media screen and (max-width: 511px) {
+  .origen_dos img {
+    width: 90%;
+    height: 60%; } }
+
+@media screen and (max-width: 805px) {
+  .origen div {
+    padding: 20px; }
+  .origen_dos div p {
+    font-size: 20px;
+    padding: 10px; }
+  #grano div p {
+    margin: auto;
+    width: 70%; }
+  #molido div p {
+    margin: auto;
+    width: 70%; }
+  #grano div h2 {
+    margin: auto;
+    width: 70%; }
+  #molido div h2 {
+    margin: auto;
+    width: 70%; } }
+
+@media screen and (max-width: 929px) {
+  .local_uno div p {
+    font-size: 15px;
+    margin: auto;
+    width: 100%; }
+  .local_dos div p {
+    font-size: 15px;
+    margin: auto;
+    width: 100%; }
+  .origen_tres div p {
+    font-size: 15px; }
+  .origen_tres div h2 {
+    font-size: 25px; }
+  .origen_tres img {
+    margin-top: 25px; } }
+
+@media screen and (max-width: 785px) {
+  .origen_tres img {
+    margin-top: 45px; } }
+
+@media screen and (max-width: 503px) {
+  .origen_tres img {
+    margin-top: 65px; } }
+
+@media screen and (max-width: 415px) {
+  .origen_tres div p {
+    padding: 1 0px; } }
+
+@media screen and (max-width: 359px) {
+  .cafetera_explocion .segundo p {
+    color: #702400; }
+  .ojo .objetos div h2 {
+    font-size: 40px; }
+  .ojo .objetos div p {
+    font-size: 18px; } }
+
+@media screen and (max-width: 357px) {
+  .taza_cafe div p {
+    background-color: rgba(112, 35, 0, 0.445); } }
+
+@media screen and (max-width: 409px) {
+  .cafetera_explocion .segundo h2 {
+    font-size: 25px; } }
+
+@media screen and (max-width: 333px) {
+  .contacta_con_nosotros .comentario textarea {
+    width: 200px; }
+  .grano_capsula .segundo h2 {
+    position: relative;
+    top: 130px;
+    right: 20px; }
+  .grano_capsula .segundo p {
+    position: relative;
+    top: 130px;
+    right: 10px; } }
+
+@media screen and (max-width: 305px) {
+  .cafetera_explocion .primero p {
+    color: #adabad;
+    background-color: rgba(0, 0, 0, 0.658);
+    text-align: center;
+    font-size: 19px; }
+  .cafetera_explocion .primero h2 {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.658);
+    text-align: center; } }
+
+@media screen and (max-width: 324px) {
+  .grano_capsula .primero p {
+    background-color: rgba(194, 158, 128, 0.575);
+    color: #361302; } }
+
+@media screen and (max-width: 1309px) {
+  #grano img {
+    width: 35%;
+    height: 450px; }
+  #grano {
+    height: 600px; }
+  #molido img {
+    height: 600px; }
+  .ojo .productos {
+    grid-template-columns: 230px 200px 230px 410px;
+    grid-template-rows: 310px 310px; }
+  .ojo .explicacion_objetos img {
+    width: 600px;
+    height: 450px; } }
+
+@media screen and (max-width: 1231px) {
+  #grano img {
+    width: 400px;
+    height: 390px; } }
+
+@media screen and (max-width: 638px) {
+  .cafetera_explocion .primero h2 {
+    background-color: rgba(0, 0, 0, 0.705); }
+  .cafetera_explocion .primero p {
+    background-color: rgba(0, 0, 0, 0.705); } }
+
+@media screen and (max-width: 1114px) {
+  .ojo .explicacion_objetos div p {
+    font-size: 20px; }
+  .ojo .explicacion_objetos img {
+    width: 650px;
+    height: 350px; } }
+
+@media screen and (max-width: 1201px) {
+  #grano {
+    height: 800px; }
+  #grano img {
+    padding-top: 30px; }
+  #grano div p {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px; }
+  #molido img {
+    width: 400px;
+    height: 500px; }
+  .ojo .productos {
+    grid-template-columns: 200px 170px 200px 380px;
+    grid-template-rows: 280px 280px;
+    gap: 20px; } }
+
+@media screen and (max-width: 1025px) {
+  .ojo .productos {
+    grid-template-columns: 170px 140px 170px 350px;
+    grid-template-rows: 250px 250px; } }
+
+@media screen and (max-width: 545px) {
+  .contacta_con_nosotros .comentario textarea {
+    width: 80%; }
+  #grano div p {
+    font-size: 12px; }
+  #molido div p {
+    font-size: 12px; } }
+
+@media screen and (max-width: 905px) {
+  .ojo .productos {
+    grid-template-columns: 50px 280px 50px;
+    grid-template-rows: 350px 190px 350px 190px 330px; }
+  .ojo .productos .primer_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .ojo .productos .segundo_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; }
+  .ojo .productos .cuarto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+  .ojo .productos .quinto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5; }
+  .ojo .productos .sexto_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6; }
+  .ojo .explicacion_objetos div h2 {
+    font-size: 25px; }
+  .ojo .explicacion_objetos div p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 795px) {
+  .ojo .explicacion_objetos {
+    flex-direction: column; }
+  .ojo .explicacion_objetos img {
+    width: 60%;
+    height: 55%; }
+  .ojo .explicacion_objetos div h2 {
+    font-size: 30px;
+    margin: auto;
+    width: 70%; }
+  .ojo .explicacion_objetos div p {
+    padding: 20px;
+    margin: auto;
+    width: 70%; }
+  .ojo .intro_productos p {
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px; } }
+
+@media screen and (max-width: 1153px) {
+  .local_uno {
+    flex-direction: column; }
+  .local_uno iframe {
+    margin: auto;
+    width: 500px; }
+  .local_uno div p {
+    margin: auto;
+    width: 100%; }
+  .local_dos {
+    flex-direction: column; }
+  .local_dos iframe {
+    margin: auto;
+    width: 500px; }
+  .local_dos div p {
+    margin: auto;
+    width: 100%; } }
+
+@media screen and (max-width: 521px) {
+  .local_uno iframe {
+    width: 300px; }
+  .local_dos iframe {
+    width: 300px; } }
