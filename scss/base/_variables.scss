@@ -1,3 +1,24 @@
 $color-principal: chocolate;
 $color-secundario: rgb(2, 179, 179);
 $color-tercero: rgb(245, 175, 142);
+
+@mixin flex($flex, $justify) {
+  display: flex;
+  justify-content: right;
+}
+
+.mini_presso {
+  @include flex(flex, right);
+}
+
+%flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.origen {
+  background-color: rgba(133, 81, 13, 0.253);
+  @extend %flex;
+}

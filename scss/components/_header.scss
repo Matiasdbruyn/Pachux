@@ -15,6 +15,9 @@ header {
         width: 120px;
         height: 30px;
       }
+      .navbar-collapse {
+        flex-grow: inherit;
+      }
       div {
         ul {
           li {

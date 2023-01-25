@@ -79,10 +79,6 @@
     background-repeat: no-repeat;
     width: 48%;
     height: 500px;
-    transition-duration: 1s;
-    &:hover {
-      transform: scale(1.1);
-    }
     h2 {
       font-weight: 900;
       text-align: center;
@@ -105,10 +101,6 @@
     background-repeat: no-repeat;
     width: 48%;
     height: 500px;
-    transition-duration: 1s;
-    &:hover {
-      transform: scale(1.1);
-    }
     h2 {
       text-align: center;
       padding: 10px;
@@ -141,15 +133,11 @@
     background-repeat: no-repeat;
     width: 48%;
     height: 500px;
-    transition-duration: 1s;
-    &:hover {
-      transform: scale(1.1);
-    }
     h2 {
       text-align: left;
       padding: 10px;
       font-family: "Poppins", sans-serif;
-      color: rgb(179, 128, 52);
+      color: rgb(235, 189, 122);
     }
     p {
       font-size: 20px;
@@ -166,10 +154,6 @@
     background-repeat: no-repeat;
     width: 48%;
     height: 500px;
-    transition-duration: 1s;
-    &:hover {
-      transform: scale(1.1);
-    }
     h2 {
       margin-right: 150px;
       text-align: center;
@@ -328,6 +312,11 @@
       font-size: 20px;
       position: relative;
       top: 300px;
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: cyan;
+      }
     }
   }
 }
@@ -419,6 +408,7 @@
   }
   .explicacion_objetos {
     display: flex;
+    justify-content: end;
     align-items: center;
     background-repeat: no-repeat;
     background-position: right;
@@ -446,6 +436,8 @@
     }
   }
   .intro_productos {
+    display: block;
+    justify-content: end;
     p {
       color: chocolate;
       font-family: "Poppins", sans-serif;
