@@ -242,7 +242,8 @@
 
 @media screen and (max-width: 333px) {
   .contacta_con_nosotros .comentario textarea {
-    width: 200px;
+    width: 100%;
+    margin: auto;
   }
   .grano_capsula .segundo h2 {
     position: relative;
@@ -355,9 +356,6 @@
 }
 
 @media screen and (max-width: 545px) {
-  .contacta_con_nosotros .comentario textarea {
-    width: 80%;
-  }
   #grano div p {
     font-size: 12px;
   }
