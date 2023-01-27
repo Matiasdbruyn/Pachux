@@ -754,7 +754,8 @@ footer {
 
 @media screen and (max-width: 359px) {
   .contacta_con_nosotros .comentario textarea {
-    width: 50%; }
+    width: 50%;
+    font-size: 5px; }
   .cafetera_explocion .segundo p {
     color: #702400; }
   .ojo .objetos div h2 {
