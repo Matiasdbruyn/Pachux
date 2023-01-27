@@ -754,6 +754,8 @@ footer {
     padding: 1 0px; } }
 
 @media screen and (max-width: 359px) {
+  .contacta_con_nosotros .comentario textarea {
+    width: 90%; }
   .cafetera_explocion .segundo p {
     color: #702400; }
   .ojo .objetos div h2 {
@@ -770,8 +772,6 @@ footer {
     font-size: 25px; } }
 
 @media screen and (max-width: 333px) {
-  .contacta_con_nosotros .comentario textarea {
-    width: 90%; }
   .grano_capsula .segundo h2 {
     position: relative;
     top: 130px;

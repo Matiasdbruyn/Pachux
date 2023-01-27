@@ -217,6 +217,9 @@
 }
 
 @media screen and (max-width: 359px) {
+  .contacta_con_nosotros .comentario textarea {
+    width: 90%;
+  }
   .cafetera_explocion .segundo p {
     color: rgb(112, 36, 0);
   }
@@ -241,9 +244,6 @@
 }
 
 @media screen and (max-width: 333px) {
-  .contacta_con_nosotros .comentario textarea {
-    width: 90%;
-  }
   .grano_capsula .segundo h2 {
     position: relative;
     top: 130px;
