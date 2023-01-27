@@ -301,8 +301,8 @@
 
 @media screen and (max-width: 1231px) {
   #grano img {
-    width: 400px;
-    height: 390px;
+    width: 90%;
+    height: 35%;
   }
 }
 
@@ -329,17 +329,14 @@
   #grano {
     height: 800px;
   }
-  #grano img {
-    padding-top: 30px;
-  }
   #grano div p {
     font-size: 15px;
     text-align: center;
     padding: 5px;
   }
   #molido img {
-    width: 400px;
-    height: 500px;
+    width: 90%;
+    height: 10%;
   }
   .ojo .productos {
     grid-template-columns: 200px 170px 200px 380px;
@@ -366,7 +363,7 @@
 
 @media screen and (max-width: 905px) {
   .ojo .productos {
-    grid-template-columns: 50px 280px 50px;
+    grid-template-columns: 0px 280px 0px;
     grid-template-rows: 350px 190px 350px 190px 330px;
   }
   .ojo .productos .primer_item {

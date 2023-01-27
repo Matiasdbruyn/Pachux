@@ -321,6 +321,7 @@ header {
   flex-wrap: wrap;
   background-color: #f4f5f5; }
   #grano img {
+    padding: 15px;
     width: 45%;
     height: 600px; }
   #grano div h2 {
@@ -814,8 +815,8 @@ footer {
 
 @media screen and (max-width: 1231px) {
   #grano img {
-    width: 400px;
-    height: 390px; } }
+    width: 90%;
+    height: 35%; } }
 
 @media screen and (max-width: 638px) {
   .cafetera_explocion .primero h2 {
@@ -833,15 +834,13 @@ footer {
 @media screen and (max-width: 1201px) {
   #grano {
     height: 800px; }
-  #grano img {
-    padding-top: 30px; }
   #grano div p {
     font-size: 15px;
     text-align: center;
     padding: 5px; }
   #molido img {
-    width: 400px;
-    height: 500px; }
+    width: 90%;
+    height: 10%; }
   .ojo .productos {
     grid-template-columns: 200px 170px 200px 380px;
     grid-template-rows: 280px 280px;
