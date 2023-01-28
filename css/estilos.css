@@ -375,7 +375,6 @@ header {
       color: chocolate;
       text-align: center;
       font-size: 80px;
-      padding: 50px;
       text-decoration: underline; }
     .ojo .objetos div p {
       font-family: "Montserrat", sans-serif;
@@ -755,8 +754,8 @@ footer {
 
 @media screen and (max-width: 359px) {
   .contacta_con_nosotros .comentario textarea {
-    width: 50%;
-    font-size: 5px; }
+    width: 90%;
+    font-size: 10px; }
   .cafetera_explocion .segundo p {
     color: #702400; }
   .ojo .objetos div h2 {
