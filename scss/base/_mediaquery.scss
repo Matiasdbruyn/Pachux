@@ -239,6 +239,10 @@
 }
 
 @media screen and (max-width: 409px) {
+  #grano img {
+    width: 90%;
+    height: 35%;
+  }
   .cafetera_explocion .segundo h2 {
     font-size: 25px;
   }
@@ -301,8 +305,8 @@
 
 @media screen and (max-width: 1231px) {
   #grano img {
-    width: 90%;
-    height: 35%;
+    width: 400px;
+    height: 350px;
   }
 }
 

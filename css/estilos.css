@@ -769,6 +769,9 @@ footer {
     background-color: rgba(112, 35, 0, 0.445); } }
 
 @media screen and (max-width: 409px) {
+  #grano img {
+    width: 90%;
+    height: 35%; }
   .cafetera_explocion .segundo h2 {
     font-size: 25px; } }
 
@@ -815,8 +818,8 @@ footer {
 
 @media screen and (max-width: 1231px) {
   #grano img {
-    width: 90%;
-    height: 35%; } }
+    width: 400px;
+    height: 350px; } }
 
 @media screen and (max-width: 638px) {
   .cafetera_explocion .primero h2 {
@@ -859,7 +862,7 @@ footer {
 
 @media screen and (max-width: 905px) {
   .ojo .productos {
-    grid-template-columns: 50px 280px 50px;
+    grid-template-columns: 0px 280px 0px;
     grid-template-rows: 350px 190px 350px 190px 330px; }
   .ojo .productos .primer_item {
     grid-column-start: 2;
