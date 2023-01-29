@@ -11,6 +11,33 @@ $color-tercero: rgb(245, 175, 142);
   @include flex(flex, right);
 }
 
+@mixin flex($flex, $justify) {
+  display: flex;
+  justify-content: right;
+}
+
+.taza_cafe {
+  @include flex(flex, right);
+}
+
+@mixin flex($flex, $justify) {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.grano_capsula {
+  @include flex(flex, space-evenly);
+}
+
+@mixin flex($flex, $justify) {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cafetera_explocion {
+  @include flex(flex, space-evenly);
+}
+
 %flex {
   display: flex;
   justify-content: space-around;

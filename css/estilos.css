@@ -8,6 +8,18 @@
   display: flex;
   justify-content: right; }
 
+.taza_cafe {
+  display: flex;
+  justify-content: right; }
+
+.grano_capsula {
+  display: flex;
+  justify-content: space-evenly; }
+
+.cafetera_explocion {
+  display: flex;
+  justify-content: space-evenly; }
+
 .origen {
   display: flex;
   justify-content: space-around;
